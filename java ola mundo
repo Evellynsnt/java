@@ -1,0 +1,11 @@
+// nome da classe
+public class aula01{
+
+    // método de execução
+    public static void main(String[] args) {
+        // escrever o meu código
+        // impressão
+        System.out.println("olá, mundo");
+        System.out.println("Evellyn");
+    }
+}
