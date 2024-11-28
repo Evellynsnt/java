@@ -1,0 +1,31 @@
+public class atividade {
+    
+    public static void main(String[] args) {
+        double a=5;
+        double b=6;
+        double soma=a+b;
+
+        System.out.println("A soma do resultado é: "+soma);
+
+
+        double c=5;
+        double d=6;
+        double subtração=c-d;
+
+        System.out.println("A subtração do resultado é: " +subtração);
+
+
+        double e=5;
+        double f=6;
+        double multiplicação=e*f;
+
+        System.out.println("A soma do resultado é: " +multiplicação);
+
+
+        double g=5;
+        double h=6;
+        double divisao=g/h;
+
+        System.out.println("A soma do resultado é: " +divisao);
+    }
+}
