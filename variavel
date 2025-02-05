@@ -1,0 +1,19 @@
+public class Variavel {
+
+    public static void main(String[] args) {
+        String nome="Evellyn";
+        int idade=25;
+        float altura=1.80f; // botou o 'float' pecisa do f no final
+        char sexo='f';
+/* 
+        System.out.println(nome);
+        System.out.println(idade);
+        System.out.println(altura);
+        System.out.println(sexo);
+   */ 
+
+        System.out.println("Olá "+nome+"sua idade é"+idade+
+        "Sua altura é"+altura+"seu sexo é"+sexo);
+
+  }
+}
