@@ -1,0 +1,32 @@
+public class Numeros {
+
+    public static void main(String[] args) {
+
+        double a=6;
+        double b=6;
+        double soma=a+b;
+
+        System.out.println("A soma é:" +soma);
+
+        double c=6;
+        double d=6;
+        double subtração=c-d;
+
+        System.out.println("A subtração é: " +subtração);
+
+
+        double e=6;
+        double f=6;
+        double multiplicação=e*f;
+
+        System.out.println("A multiplicação é: " +multiplicação);
+
+
+        double g=6;
+        double h=6;
+        double divisao=g/h;
+
+        System.out.println("A divisão é: " +divisao);
+
+    }
+}
