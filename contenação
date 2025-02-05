@@ -1,0 +1,17 @@
+public class Concatenacao {
+    
+    public static void main(String[] args) {
+
+        double a= 6;
+        double b= 6;
+        double soma=a+b;
+        double divisão=a/b;
+        double multiplicação=a*b;
+        double subtração=a-b;
+
+        System.out.println(a+" + "+b+" = "+soma);
+        System.out.println(a+" : "+b+" = "+divisão);
+        System.out.println(a+" x "+b+" = "+multiplicação);
+        System.out.println(a+" - "+b+" = "+subtração);
+    }
+}
