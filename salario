@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Salario {
+    public static void main(String[] args) {
+         Scanner sc = new Scanner(System.in);
+         System.out.println("Digite seu sálario:");
+         double salario =sc.nextDouble();
+
+         if (salario >= 3000){
+            System.out.println("rico");
+         } else{
+            System.out.println("pobre");
+         }
+    }
+}
