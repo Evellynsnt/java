@@ -1,0 +1,15 @@
+public class CondicionalEncadeada {
+    public static void main(String[] args) {
+        int nota = 75;
+
+        if (nota >= 90){
+            System.out.println("Aprovado com excelência");
+        } else if (nota >= 70) {
+            System.out.println("Aprovado");
+        } else if (nota >= 50){
+            System.out.println("Recuperação");
+        } else{
+            System.out.println("Reprovado");
+        }
+    }
+}
