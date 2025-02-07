@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Nota {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite sua nota:");
+        float nota = sc.nextFloat();
+
+        if (nota >= 7){
+           System.out.println("aprovado");
+        } else{
+           System.out.println("reprovado");
+        }
+    }
+}
