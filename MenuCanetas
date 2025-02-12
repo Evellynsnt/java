@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class MenuCanetas {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        
+        int op = 0;
+
+        while (op!=4){
+            System.out.println("\n================ MENU ==================");
+            System.out.println("1- CANETA ESFERIOGRÁFICA");
+            System.out.println("2- CANETA GEL");
+            System.out.println("3- CANETA TINTEIRO");
+            System.out.println("4- SAIR");
+
+            System.out.println("DIGITE A OPÇÃO QUE DESEJA: ");
+    
+
+            op=sc.nextInt();
+            
+            switch (op) {
+                case 1:
+                    System.out.println("\nEconômica e de longa duração");
+                    break;
+                case 2:
+                    System.out.println(" \nTinta mais pigmentada e escrita suave");
+                    break;
+                case 3:
+                    System.out.println("\nClássica e elegante, usada para caligrafia");
+                    break;
+                default:
+                    op = 4;
+                    System.out.println("\nsaindo...");                
+                    break;
+            }
+        }
+
+        sc.close();
+        }
+    }
