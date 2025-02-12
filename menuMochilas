@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class MenuMochilas {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        
+        int op = 0;
+
+        while (op!=4){
+            System.out.println("\n================ MENU ==================");
+            System.out.println("1- MOCHILA ESCOLAR");
+            System.out.println("2- MOCHILA DE VIAGEM");
+            System.out.println("3- MOCHILA ESPORTIVA");
+            System.out.println("4- SAIR");
+
+            System.out.println("DIGITE A OPÇÃO QUE DESEJA: ");
+
+            op=sc.nextInt();
+            
+            switch (op) {
+                case 1:
+                    System.out.println("\nCompacta e ideal para estudantes");
+                    break;
+                case 2:
+                    System.out.println(" \nEspaçosa, ideal para longas jornadas");
+                    break;
+                case 3:
+                    System.out.println("\n Leve, resistente e ergonômica");
+                    break;
+                default:
+                    op = 4;
+                    System.out.println("\nsaindo...");                
+                    break;
+            }
+        }
+
+        sc.close();
+    }
+}
