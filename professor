@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class NomeProfessor {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String nome;
+
+        do {
+            System.out.print("Digite o nome do professor mais fofo do Senai: ");
+            nome = scanner.nextLine();
+        } while (!nome.equalsIgnoreCase("Anderson")); // Ignora maiúsculas e minúsculas
+
+        System.out.println("Isso aí! O professor mais fofo é o Anderson!");
+        scanner.close();
+    }
+}
