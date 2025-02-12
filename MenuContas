@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+public class MenuContas {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+        
+        int op = 0;
+
+        while (op!=5){
+            System.out.println("\n================ OPERAÇÕES ==================");
+            System.out.println("1- SOMA");
+            System.out.println("2- SUBTRAÇÃO");
+            System.out.println("3- DIVISÃO");
+            System.out.println("4- MULTIPLICAÇÃO");
+            System.out.println("5- SAIR");
+            System.out.println("DIGITE O PRIMEIRO NÚMERO: ");
+            double n1=sc.nextDouble();
+
+            System.out.println("DIGITE O SEGUNDO NÚMERO:");
+            double n2=sc.nextDouble();
+            
+            System.out.println("QUAL A OPERAÇÃO QUE DESEJA:");
+
+
+            op=sc.nextInt();
+            
+            switch (op) {
+                case 1:
+                    double soma = n1+n2;
+                    System.out.println("TOTAL: "+soma);
+                    break;
+                case 2:
+                    double subtracao = n1-n2;
+                    System.out.println("TOTAL: "+subtracao);
+                    break;
+                case 3:
+                    double divisao = n1/n2;
+                    System.out.println("TOTAL: "+divisao);
+                    break;
+                case 4:
+                    double multiplicacao = n1*n2;
+                    System.out.println("TOTAL: "+multiplicacao);
+                    break;
+                default:
+                    op = 5;
+                    System.out.println("\nsaindo...");                
+                    break;
+            }
+        }
+
+        sc.close();
+    }
+}
