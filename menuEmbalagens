@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class MenuEmbalagens {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        
+        int op = 0;
+
+        while (op!=4){
+            System.out.println("\n================ MENU ==================");
+            System.out.println("1- CAIXA DE PAPELÃO");
+            System.out.println("2- SACOLA PLÁSTICA");
+            System.out.println("3- EMBALAGEM DE VIDRO");
+            System.out.println("4- SAIR");
+
+            System.out.println("DIGITE A OPÇÃO QUE DESEJA: ");
+
+            op=sc.nextInt();
+            
+            
+
+            switch (op) {
+                case 1:
+                    System.out.println("\nIdeal para transporte e armazenamento");
+                    break;
+                case 2:
+                    System.out.println(" \nLeve e prática, mas pouco sustentável");
+                    break;
+                case 3:
+                    System.out.println("\nResistente e reutilizável");
+                    break;
+                default:
+                    op = 4;
+                    System.out.println("\nsaindo...");                
+                    break;
+            }
+        }
+
+        sc.close();
+    }
+}
